@@ -70,10 +70,22 @@ st.markdown("---")
 CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
 
      labels[0]: {
-       "texts": ["치킨은 맛있다,"],
+       "texts": ["치킨는 맛있다,"],
        "images": ["https://img.danawa.com/prod_img/500000/016/049/img/2049016_1.jpg?shrink=360:360&_v=20210929145454"],
        "videos": ["https://www.youtube.com/shorts/s1qYvTpFqJA"]
      },
+     labels[1]: {
+       "texts": ["피자는 맛있다,"],
+       "images": ["https://img.danawa.com/prod_img/500000/016/049/img/2049016_1.jpg?shrink=360:360&_v=20210929145454"],
+       "videos": ["https://www.youtube.com/shorts/s1qYvTpFqJA"]
+     },
+    
+     labels[2]: {
+       "texts": ["파스타는 맛있다,"],
+       "images": ["https://img.danawa.com/prod_img/500000/016/049/img/2049016_1.jpg?shrink=360:360&_v=20210929145454"],
+       "videos": ["https://www.youtube.com/shorts/s1qYvTpFqJA"]
+     },
+    
 }
 
 # ======================
